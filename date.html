@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이트 기념일 계산기</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    #wrap {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .title {
+        padding: 10px 0;
+        font-size: 1.25rem;
+    }
+
+    #date {
+        padding: 30px 0;
+        font-size: 2.5rem;
+    }
+
+    .sub_title {
+        background-color: crimson;
+        font-size: 1rem;
+        color: white;
+        margin: 30px 0 0;
+    }
+
+    .section {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-around;
+    }
+
+    .day p,
+    .d-day p {
+        padding: 10px 0;
+        font-weight: 800;
+    }
+</style>
+
+<body>
+    <div id="wrap">
+        <p><img src="heart.png" alt="heart"></p>
+        <h4 class="title">우리가 만난 지</h4>
+        <h1 id="date">며칠?</h1>
+
+        <p class="sub_title">기념일 계산</p>
+        <section class="section">
+            <div class="day">
+                <p>100일</p>
+                <p>200일</p>
+                <p>1년</p>
+                <p>500일</p>
+                <p>700일</p>
+                <p>900일</p>
+                <p>1000일</p>
+                <p>3000일</p>
+                <p>5000일</p>
+                <p>7000일</p>
+                <p>9000일</p>
+            </div>
+            <div class="d-day">
+                <p id="date100"></p>
+                <p id="date200"></p>
+                <p id="date365"></p>
+                <p id="date500"></p>
+                <p id="date700"></p>
+                <p id="date900"></p>
+                <p id="date1000"></p>
+                <p id="date3000"></p>
+                <p id="date5000"></p>
+                <p id="date7000"></p>
+                <p id="date9000"></p>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="date.js"></script>
+
+</html>
