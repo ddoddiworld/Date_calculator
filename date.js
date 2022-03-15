@@ -1,6 +1,6 @@
 var now = new Date();
 //오늘 날짜 정보
-var firstDay = new Date(prompt("사귄날 알려줘봐"))
+var firstDay = new Date(prompt("사귄날 알려주세요"))
 // var firstDay = new Date("2017-01-05");
 //new Date("2017-01-05T02:00:00z") 시간까지 적용 가능
 //처음 만난 날짜의 정보
